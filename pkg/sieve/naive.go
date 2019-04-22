@@ -29,7 +29,8 @@ func (n *Naive) Max() int64 {
 }
 
 // Primes returns all prime numbers in [2, Max()].
-// The calculation is only performed once.
+// The result of the calculation is stored and
+// referenced until Reset is called.
 func (n *Naive) Primes() []int64 {
 	if n.primes == nil {
 		n.primes = n.calculatePrimes()

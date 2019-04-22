@@ -148,7 +148,7 @@ func TestNaive_Primes(t *testing.T) {
 	}
 }
 
-var result []int64
+var resultNaive []int64
 
 func benchmarkNaive_Primes(max int64, b *testing.B) {
 	var p []int64
@@ -157,7 +157,7 @@ func benchmarkNaive_Primes(max int64, b *testing.B) {
 		p = naive.Primes()
 		naive.Reset()
 	}
-	result = p
+	resultNaive = p
 }
 
 func BenchmarkNaive_Primes256(b *testing.B) {
