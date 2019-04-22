@@ -1,6 +1,7 @@
 # Sieve of Eratosthenes
 [![Go Report Card](https://goreportcard.com/badge/github.com/samlitowitz/eratosthenes)](https://goreportcard.com/report/github.com/samlitowitz/eratosthenes)
 [![GoDoc](https://godoc.org/github.com/samlitowitz/eratosthenes/pkg/sieve?status.svg)](https://godoc.org/github.com/samlitowitz/eratosthenes/pkg/sieve)
+[![Build Status](https://travis-ci.org/samlitowitz/eratosthenes.svg?branch=master)](https://travis-ci.org/samlitowitz/eratosthenes)
 
 Read about the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
 
