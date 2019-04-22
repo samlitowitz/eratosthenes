@@ -2,14 +2,539 @@
 
 
 [[projects]]
+  name = "github.com/BurntSushi/toml"
+  packages = ["."]
+  revision = "3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005"
+  version = "v0.3.1"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/OpenPeeDeeP/depguard"
+  packages = ["."]
+  revision = "1f388ab2d81096755d25043aa729e2fb889f3dae"
+
+[[projects]]
+  name = "github.com/fatih/color"
+  packages = ["."]
+  revision = "570b54cabe6b8eb0bc2dfce68d964677d63b5260"
+  version = "v1.5.0"
+
+[[projects]]
+  name = "github.com/fsnotify/fsnotify"
+  packages = ["."]
+  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+  version = "v1.4.7"
+
+[[projects]]
+  name = "github.com/go-critic/go-critic"
+  packages = [
+    "checkers",
+    "checkers/internal/lintutil"
+  ]
+  revision = "d7b3038bc7a1c35a1d02fdd7cf4094f0f1a12001"
+  version = "v0.3.4"
+
+[[projects]]
+  name = "github.com/go-lintpack/lintpack"
+  packages = [
+    ".",
+    "astwalk"
+  ]
+  revision = "80adc0715ac409128d0b7212719896ad8d3444b7"
+  version = "v0.5.2"
+
+[[projects]]
   name = "github.com/go-test/deep"
   packages = ["."]
   revision = "6592d9cc0a499ad2d5f574fde80a2b5c5cc3b4f5"
   version = "v1.0.1"
 
+[[projects]]
+  name = "github.com/go-toolsmith/astcast"
+  packages = ["."]
+  revision = "a6cb19f07b66b859a53f3f2be6e4c3bba892db7e"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/go-toolsmith/astcopy"
+  packages = ["."]
+  revision = "245af3020944a15e09072c8ad3883c1451d1fdef"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/go-toolsmith/astequal"
+  packages = ["."]
+  revision = "dcb477bfacd6e00a13c6d63bfc73db28dd343160"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/go-toolsmith/astfmt"
+  packages = ["."]
+  revision = "0d74c731079884bda287cf8df9ce7b92e688af8c"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/go-toolsmith/astp"
+  packages = ["."]
+  revision = "6373270dee65bfb0479f2acd16d4c8e9d5db13f8"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/go-toolsmith/strparse"
+  packages = ["."]
+  revision = "830b6daa1241714c12a9b9a4a56849fe2f93aedc"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/go-toolsmith/typep"
+  packages = ["."]
+  revision = "cab1745ffd84a567b524317c7f90e96755b18fcf"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/gobwas/glob"
+  packages = [
+    ".",
+    "compiler",
+    "match",
+    "syntax",
+    "syntax/ast",
+    "syntax/lexer",
+    "util/runes",
+    "util/strings"
+  ]
+  revision = "5ccd90ef52e1e632236f7326478d4faa74f99438"
+  version = "v0.2.3"
+
+[[projects]]
+  name = "github.com/gogo/protobuf"
+  packages = ["proto"]
+  revision = "ba06b47c162d49f2af050fb4c75bcbc86a159d5c"
+  version = "v1.2.1"
+
+[[projects]]
+  name = "github.com/golang/mock"
+  packages = ["gomock"]
+  revision = "51421b967af1f557f93a59e0057aaf15ca02e29c"
+  version = "v1.2.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/check"
+  packages = [
+    "cmd/structcheck",
+    "cmd/varcheck"
+  ]
+  revision = "cfe4005ccda277a820149d44d6ededc400cc99a2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/dupl"
+  packages = [
+    ".",
+    "job",
+    "printer",
+    "suffixtree",
+    "syntax",
+    "syntax/golang"
+  ]
+  revision = "3e9179ac440a0386ac7cc9a085fc44397c6b9bbc"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/errcheck"
+  packages = [
+    "golangci",
+    "internal/errcheck"
+  ]
+  revision = "ef45e06d44b6e018d817c16c762d448990adc5e0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/go-misc"
+  packages = ["deadcode"]
+  revision = "927a3d87b613e9f6f0fb7ef8bb8de8b83c30a5a2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/go-tools"
+  packages = [
+    "arg",
+    "callgraph",
+    "callgraph/static",
+    "config",
+    "deprecated",
+    "functions",
+    "internal/sharedcheck",
+    "lint",
+    "lint/lintdsl",
+    "lint/lintutil",
+    "lint/lintutil/format",
+    "simple",
+    "ssa",
+    "ssa/ssautil",
+    "ssautil",
+    "staticcheck",
+    "staticcheck/vrp",
+    "stylecheck",
+    "unused",
+    "version"
+  ]
+  revision = "35a9f45a5db090b0227d692d823151104cd695fa"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/goconst"
+  packages = ["."]
+  revision = "041c5f2b40f3dd334a4a6ee6a3f84ca3fc70680a"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/gocyclo"
+  packages = ["pkg/gocyclo"]
+  revision = "0a533e8fa43d6605069e94f455bf9d79d4b8ea8c"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/gofmt"
+  packages = [
+    "gofmt",
+    "goimports"
+  ]
+  revision = "0b8337e80d98f7eec18e4504a4557b34423fd039"
+
+[[projects]]
+  name = "github.com/golangci/golangci-lint"
+  packages = [
+    "cmd/golangci-lint",
+    "pkg/commands",
+    "pkg/config",
+    "pkg/exitcodes",
+    "pkg/fsutils",
+    "pkg/golinters",
+    "pkg/golinters/goanalysis",
+    "pkg/golinters/goanalysis/checker",
+    "pkg/golinters/goanalysis/passes/nilness",
+    "pkg/goutil",
+    "pkg/lint",
+    "pkg/lint/astcache",
+    "pkg/lint/linter",
+    "pkg/lint/lintersdb",
+    "pkg/logutils",
+    "pkg/packages",
+    "pkg/printers",
+    "pkg/report",
+    "pkg/result",
+    "pkg/result/processors",
+    "pkg/timeutils"
+  ]
+  revision = "97ea1cbb21bbf5e4d0e8bcc0f9243385e9262dcc"
+  version = "v1.16.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/gosec"
+  packages = [
+    ".",
+    "rules"
+  ]
+  revision = "8afd9cbb6cfb34a3b4d4d5711bafdc6640ae892f"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/ineffassign"
+  packages = ["."]
+  revision = "2ee8f2867dde308c46d401d6d30f6c644094b167"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/lint-1"
+  packages = ["."]
+  revision = "d2cdd8c0821928c61cb0903441f8b35457a98a61"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/maligned"
+  packages = ["."]
+  revision = "b1d89398deca2fd3f8578e5a9551e819bd01ca5f"
+
+[[projects]]
+  name = "github.com/golangci/misspell"
+  packages = ["."]
+  revision = "b90dc15cfd220ecf8bbc9043ecb928cef381f011"
+  version = "v0.3.4"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/prealloc"
+  packages = ["."]
+  revision = "215b22d4de21190b80ce05e7d8466677c1aa3223"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/revgrep"
+  packages = ["."]
+  revision = "276a5c0a103935ee65af49afc254a65335bf1fcf"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golangci/unconvert"
+  packages = ["."]
+  revision = "28b1c447d1f4a810737ee6ab40ea6c1d0ceae4ad"
+
+[[projects]]
+  name = "github.com/hashicorp/hcl"
+  packages = [
+    ".",
+    "hcl/ast",
+    "hcl/parser",
+    "hcl/printer",
+    "hcl/scanner",
+    "hcl/strconv",
+    "hcl/token",
+    "json/parser",
+    "json/scanner",
+    "json/token"
+  ]
+  revision = "8cb6e5b959231cc1119e43259c4a608f9c51a241"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/inconshreveable/mousetrap"
+  packages = ["."]
+  revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
+  version = "v1.0"
+
+[[projects]]
+  name = "github.com/kisielk/gotool"
+  packages = [
+    ".",
+    "internal/load"
+  ]
+  revision = "80517062f582ea3340cd4baf70e86d539ae7d84d"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/konsorten/go-windows-terminal-sequences"
+  packages = ["."]
+  revision = "f55edac94c9bbba5d6182a4be46d86a2c9b5b50e"
+  version = "v1.0.2"
+
+[[projects]]
+  name = "github.com/magiconair/properties"
+  packages = ["."]
+  revision = "c2353362d570a7bfa228149c62842019201cfb71"
+  version = "v1.8.0"
+
+[[projects]]
+  name = "github.com/mattn/go-colorable"
+  packages = ["."]
+  revision = "3a70a971f94a22f2fa562ffcc7a0eb45f5daf045"
+  version = "v0.1.1"
+
+[[projects]]
+  name = "github.com/mattn/go-isatty"
+  packages = ["."]
+  revision = "c2a7a6ca930a4cd0bc33a3f298eb71960732a3a7"
+  version = "v0.0.7"
+
+[[projects]]
+  name = "github.com/mitchellh/go-homedir"
+  packages = ["."]
+  revision = "af06845cf3004701891bf4fdb884bfe4920b3727"
+  version = "v1.1.0"
+
+[[projects]]
+  name = "github.com/mitchellh/mapstructure"
+  packages = ["."]
+  revision = "3536a929edddb9a5b34bd6861dc4a9647cb459fe"
+  version = "v1.1.2"
+
+[[projects]]
+  name = "github.com/nbutton23/zxcvbn-go"
+  packages = [
+    ".",
+    "adjacency",
+    "data",
+    "entropy",
+    "frequency",
+    "match",
+    "matching",
+    "scoring",
+    "utils/math"
+  ]
+  revision = "eafdab6b0663b4b528c35975c8b0e78be6e25261"
+  version = "v0.1"
+
+[[projects]]
+  name = "github.com/pelletier/go-toml"
+  packages = ["."]
+  revision = "63909f0a90ab0f36909e8e044e46ace10cf13ba2"
+  version = "v1.3.0"
+
+[[projects]]
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
+  version = "v0.8.1"
+
+[[projects]]
+  name = "github.com/sirupsen/logrus"
+  packages = ["."]
+  revision = "8bdbc7bcc01dcbb8ec23dc8a28e332258d25251f"
+  version = "v1.4.1"
+
+[[projects]]
+  name = "github.com/spf13/afero"
+  packages = [
+    ".",
+    "mem"
+  ]
+  revision = "588a75ec4f32903aa5e39a2619ba6a4631e28424"
+  version = "v1.2.2"
+
+[[projects]]
+  name = "github.com/spf13/cast"
+  packages = ["."]
+  revision = "8c9545af88b134710ab1cd196795e7f2388358d7"
+  version = "v1.3.0"
+
+[[projects]]
+  name = "github.com/spf13/cobra"
+  packages = ["."]
+  revision = "ef82de70bb3f60c65fb8eebacbb2d122ef517385"
+  version = "v0.0.3"
+
+[[projects]]
+  name = "github.com/spf13/jwalterweatherman"
+  packages = ["."]
+  revision = "94f6ae3ed3bceceafa716478c5fbf8d29ca601a1"
+  version = "v1.1.0"
+
+[[projects]]
+  name = "github.com/spf13/pflag"
+  packages = ["."]
+  revision = "298182f68c66c05229eb03ac171abe6e309ee79a"
+  version = "v1.0.3"
+
+[[projects]]
+  name = "github.com/spf13/viper"
+  packages = ["."]
+  revision = "9e56dacc08fbbf8c9ee2dbc717553c758ce42bc9"
+  version = "v1.3.2"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "e8e3143a4f4a00f1fafef0dd82ba78223281b01b"
+
+[[projects]]
+  name = "golang.org/x/text"
+  packages = [
+    "internal/gen",
+    "internal/triegen",
+    "internal/ucd",
+    "transform",
+    "unicode/cldr",
+    "unicode/norm",
+    "width"
+  ]
+  revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
+  version = "v0.3.0"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/tools"
+  packages = [
+    "go/analysis",
+    "go/analysis/passes/asmdecl",
+    "go/analysis/passes/assign",
+    "go/analysis/passes/atomic",
+    "go/analysis/passes/atomicalign",
+    "go/analysis/passes/bools",
+    "go/analysis/passes/buildssa",
+    "go/analysis/passes/buildtag",
+    "go/analysis/passes/cgocall",
+    "go/analysis/passes/composite",
+    "go/analysis/passes/copylock",
+    "go/analysis/passes/ctrlflow",
+    "go/analysis/passes/httpresponse",
+    "go/analysis/passes/inspect",
+    "go/analysis/passes/internal/analysisutil",
+    "go/analysis/passes/loopclosure",
+    "go/analysis/passes/lostcancel",
+    "go/analysis/passes/nilfunc",
+    "go/analysis/passes/printf",
+    "go/analysis/passes/shadow",
+    "go/analysis/passes/shift",
+    "go/analysis/passes/stdmethods",
+    "go/analysis/passes/structtag",
+    "go/analysis/passes/tests",
+    "go/analysis/passes/unmarshal",
+    "go/analysis/passes/unreachable",
+    "go/analysis/passes/unsafeptr",
+    "go/analysis/passes/unusedresult",
+    "go/ast/astutil",
+    "go/ast/inspector",
+    "go/buildutil",
+    "go/cfg",
+    "go/gcexportdata",
+    "go/internal/cgo",
+    "go/internal/gcimporter",
+    "go/internal/packagesdriver",
+    "go/loader",
+    "go/packages",
+    "go/ssa",
+    "go/ssa/ssautil",
+    "go/types/typeutil",
+    "imports",
+    "internal/fastwalk",
+    "internal/gopathwalk",
+    "internal/module",
+    "internal/semver"
+  ]
+  revision = "aa740d4807891cb493e9f727901baf334b9fabce"
+
+[[projects]]
+  name = "gopkg.in/yaml.v2"
+  packages = ["."]
+  revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
+  version = "v2.2.2"
+
+[[projects]]
+  branch = "master"
+  name = "mvdan.cc/interfacer"
+  packages = ["check"]
+  revision = "c20040233aedb03da82d460eca6130fcd91c629a"
+
+[[projects]]
+  branch = "master"
+  name = "mvdan.cc/lint"
+  packages = ["."]
+  revision = "adc824a0674b99099789b6188a058d485eaf61c0"
+
+[[projects]]
+  branch = "master"
+  name = "mvdan.cc/unparam"
+  packages = ["check"]
+  revision = "1b9ccfa71afe53433971717161c9666adfc4d8c5"
+
+[[projects]]
+  name = "sourcegraph.com/sourcegraph/go-diff"
+  packages = ["diff"]
+  revision = "042635e6444e67483d777aaa240274f13691500c"
+  version = "v0.5.1"
+
+[[projects]]
+  name = "sourcegraph.com/sqs/pbtypes"
+  packages = ["."]
+  revision = "688c2c2cb411327a50aae0f89119af9f38b0fc03"
+  version = "v1.0.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a9595e1433ff4558383383a9e4cf5eb149d96e9ff99fb8b5c24b08a3dee874b8"
+  inputs-digest = "85ef96f24315477188f0709c75bf186427847622d633695d7dec1cbb7340ab7f"
   solver-name = "gps-cdcl"
   solver-version = 1
