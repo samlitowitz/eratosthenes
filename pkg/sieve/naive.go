@@ -38,6 +38,12 @@ func (n *Naive) Primes() []int64 {
 	return n.primes
 }
 
+// Reset clears out the calculated primes forcing them
+// to be recalculated when calling Primes().
+func (n *Naive) Reset() {
+	n.primes = nil
+}
+
 func (n *Naive) calculatePrimes() []int64 {
 	numbers := make([]bool, n.max+1)
 

@@ -147,3 +147,23 @@ func TestNaive_Primes(t *testing.T) {
 		}
 	}
 }
+
+var result []int64
+
+func benchmarkNaive_Primes(max int64, b *testing.B) {
+	var p []int64
+	naive, _ := sieve.NewNaive(max)
+	for n := 0; n < b.N; n++ {
+		p = naive.Primes()
+		naive.Reset()
+	}
+	result = p
+}
+
+func BenchmarkNaive_Primes256(b *testing.B) {
+	benchmarkNaive_Primes(256, b)
+}
+
+func BenchmarkNaive_Primes512(b *testing.B) {
+	benchmarkNaive_Primes(512, b)
+}
