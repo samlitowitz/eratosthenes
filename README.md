@@ -31,8 +31,11 @@ import (
 func main() {
 	naive, _ := sieve.NewNaive(64)
 	primes := naive.Primes()
-	
 	fmt.Printf("%+v\n", primes)
+	
+	segmented, _ := sieve.NewSegmented(64, 64)
+	primes = segmented.Primes()
+	fmt.Printf("%+v\n", primes)	
 }
 
 ```
